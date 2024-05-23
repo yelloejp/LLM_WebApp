@@ -1,5 +1,6 @@
 # Web application with Ollama LLMs
 This is a simple UI that utilizes FastAPI and Ngrok. 
+![image](https://github.com/yelloejp/LLM_WebApp/assets/45250729/07288f24-1fd8-47ed-92a4-9418b50aa682)
 
 # Installation and Setup
 Before getting the porject up, make sure that you download ,,Ollama" and pull models to run LLMs on your local machine. 
