@@ -1,0 +1,144 @@
+/* Default (Light Mode) Styles */
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.form-control, .border {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.container .alert.alert-info {
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    color: #004085;
+}
+
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.alert {
+    background-color: #e2e6ea;
+    border-color: #d6d9dc;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #495057;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #1026fd;
+}
+
+body.dark-mode a:hover {
+    color: #3700b3;
+}
+
+body.dark-mode .btn-primary {
+    background-color: #3287f6;
+    border-color: #001868;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+body.dark-mode .form-control, .border {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .container .alert.alert-info {
+    background-color: #223a5f;
+    border-color: #223a5f;
+    color: #e1e5ea;
+}
+
+body.dark-mode .container {
+    background-color: #242424;
+}
+
+body.dark-mode .alert {
+    background-color: #333333;
+    border-color: #444;
+}
+
+body.dark-mode .form-control {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+body.dark-mode .spinner-border {
+    color: #bb86fc;
+}
+
+#loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.9); /* This will give a slightly transparent overlay matching the dark theme. */
+    z-index: 1000; /* To ensure it's on top of everything else */
+}
+
+#loading .spinner-border {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -2rem; /* Negative half of the spinner's height to center it vertically */
+    margin-left: -2rem; /* Negative half of the spinner's width to center it horizontally */
+}
+
+#loading .status-text {
+    position: absolute;
+    top: 60%; /* Positioned slightly below the spinner */
+    left: 50%;
+    transform: translateX(-50%); /* To center it horizontally */
+    color: #e0e0e0; /* Light color to make it visible on the dark background */
+    font-size: 1.2rem;
+}
+
+.spinner-border {
+    color: #bb86fc;
+}
+
+pre {
+    padding: 15px;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
